@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding:0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+input{
+	border:none;
+	background: none;
+}
+body{
+	background:#f0f0f0;
+}
+
+.clearboth{
+	clear:both; height: 0; line-height: 0; font-size: 0
+}
+.header{
+	width: 100%;
+	background: #1d7ad9;
+	height: 85px;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.wrap img{
+	width: 120px;
+	float: left;
+}
+.wrap span{
+	float: left;
+	width: 100px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 22px;
+	color: #FFF;
+	margin-left: 10px;
+}
+.main{
+	width: 630px;
+	height: 530px;
+	margin: 10px auto;
+	border: 1px solid #e8e8e8;
+	background: #fff;
+}
+.left{
+	float: left;
+	width: 195px;
+}
+.left li{
+	list-style: none;
+	color: #999999;
+	text-align: right;
+	margin-top: 50px;
+}
+.left li span{
+	color: #ff0000;
+}
+.right{
+	float: left;
+	width: 350px;
+	margin: 10px auto;
+}
+.right li{
+	width: 270px;
+	height:35px;
+	list-style: none;
+	margin: 35px 0;
+	border: 1px solid #cccccc; 
+}
+.right li input{
+	width: 250px;
+	height: 35px;
+}
+.login{
+	width: 350px;
+	margin: 10px auto;
+}
+.login a{
+	color: #005aa0;
+}
+.login a:hover{
+	color: red;
+}
+.submit{
+	width: 305px;
+	height: 35px;
+	background: url(../images/login_bg.png) repeat-x ;
+	color: #666666;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
+}
